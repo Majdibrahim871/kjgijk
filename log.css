@@ -1,0 +1,116 @@
+body {
+    background: #e6e3e3;
+}
+
+header {
+    margin-left: 50%;
+    margin-top: 100px;
+}
+
+#par {
+    margin-top: -1px;
+    margin-left: -6%;
+    font-size: 25px;
+}
+
+form {
+    display: block;
+    margin-left: 41%;
+    margin-top: 20px;
+}
+.error{
+    color: red;
+    
+}
+#txt1 {
+    width: 46%;
+    height: 20px;
+
+}
+
+#txt2 {
+    width: 46%;
+    height: 20px;
+    margin-top: 10px
+}
+
+#txt3 {
+    width: 46%;
+    height: 20px;
+    margin-top: 10px
+}
+
+#but {
+    width: 47%;
+    margin-top: 10px;
+    margin-left: -.5%;
+    height: 30px;
+    background-color: rgb(8, 143, 206);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+contener {
+    display: block;
+    margin-left: 41.5%;
+    margin-top: 20px;
+}
+
+.hrr {
+    margin-left: 43%;
+}
+
+a {
+    text-decoration-line: none;
+
+}
+
+.conver1 {
+    margin-left: 43%;
+}
+
+.conver1 a {
+    color: #aaaaaa;
+}
+
+.conver1 a:hover {
+    color: blue;
+}
+
+section {
+    margin-left: 43%;
+}
+
+input {
+    border: none;
+    display: inline-block;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #ddd;
+}
+
+input:focus {
+    border-bottom: 1px solid rgb(32, 119, 250, 0.842);
+}
+
+.conver2 {
+    /* display: none; */
+    visibility: hidden;
+}
+
+.conver2 img {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+    margin-right: 10px;
+}
+
+.conver2 img:hover {
+    background: #aaa;
+}

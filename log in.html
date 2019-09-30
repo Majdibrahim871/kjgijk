@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Login </title>
+    <link rel="stylesheet" type="text/css" href="log.css">
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" id="imgheader">
+        <p id="par">Start collecting</p>
+    </header>
+
+    <form name="myform" onclick="">
+
+        <input id="name1" type="text" name="yname" placeholder="Your name" required><br />
+        <div class="error" id="text_error"></div>
+
+        <input id="mail" type="email" name="mail" placeholder="Email" required><br />
+        <div class="error" id="email_error"></div>
+        
+
+        <input id="pass" type="password" name="pass" placeholder="Password" required><br />
+
+        <div class="error" id="password_error"></div>
+        <!-- <input id="but" type="button" value="Sign Up" onclick="yname()"> -->
+
+        <button type="button" id="but" onclick="">Sign up</button>
+    </form>
+    <contener>
+        <p id="par2">
+            By Clicking on 'Sign Up' you are agreeing to the <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <font color="blue"> terms of Service</font> and <font color="blue"> Pivacy Policy</font>
+        </p>
+    </contener>
+    <div class="hrr">
+        <p id="line">
+            <font color=#ffdbf7>__________________________________________________</font>
+        </p>
+    </div>
+    <div class="conver1" id="conver1">
+        <p><a href=#> Sign up with Facebook,Twitter,Google or VK</a> </p>
+    </div>
+    <div class="conver2" id="conver2">
+        <img src="facebook.svg">
+        <img src="twitter.svg">
+        <img src="google.svg">
+        <img src="vk.svg">
+
+    </div>
+    <hr>
+    <section>
+        <p>
+            <a href="#">Reset password</a>&nbsp; &nbsp;x
+            <a href="#">log in</a> &nbsp; x
+            &nbsp;<a href="#">Help</a>
+        </p>
+    </section>
+    <script src="script_org.js"></script>
+</body>
+
+</html>
